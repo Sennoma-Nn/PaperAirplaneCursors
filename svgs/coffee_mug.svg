@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="coffee_mug.svg"
+   inkscape:export-filename="../coffee_mug.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#666666"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#404040"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="41.523093"
+     inkscape:cx="3.3475348"
+     inkscape:cy="10.066687"
+     inkscape:window-width="1880"
+     inkscape:window-height="1044"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     labelstyle="default"
+     borderlayer="true"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 1,0.9998586 1.000693,8.9991261 3.1209244,8.1208975 3.1212024,6.120894 4.5356149,7.5349135 6.6558467,6.6566848 Z" />
+    <path
+       id="path3"
+       style="baseline-shift:baseline;display:none;overflow:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="M 7.03125,10 C 5.9394879,10 5,10.89241 5,12 c 0,0.974583 0.7279978,1.782889 1.6464844,1.962891 L 7.0449219,13 H 7.03125 C 6.459819,13 6,12.554 6,12 6,11.446 6.459819,11 7.03125,11 H 7.8730469 L 8.2871094,10 Z M 9.3535156,10.037109 8.9550781,11 H 8.96875 C 9.540181,11 10,11.446 10,12 10,12.554 9.540181,13 8.96875,13 H 8.1269531 L 7.7128906,14 H 8.96875 C 10.060512,14 11,13.10759 11,12 11,11.025417 10.272002,10.21711 9.3535156,10.037109 Z M 7,11.5 c -0.277,0 -0.5,0.223 -0.5,0.5 0,0.277 0.223,0.5 0.5,0.5 H 9 C 9.277,12.5 9.5,12.277 9.5,12 9.5,11.723 9.277,11.5 9,11.5 Z" />
+    <path
+       id="rect2"
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 5 10 L 5 13 L 8 13 C 8.8165822 13 9.5 12.316582 9.5 11.5 C 9.5 10.683418 8.8165822 10 8 10 L 5 10 z M 8 11 A 0.5 0.5 0 0 1 8.0644531 11.003906 C 8.0677031 11.004377 8.0709786 11.005259 8.0742188 11.005859 A 0.5 0.5 0 0 1 8.1132812 11.013672 A 0.5 0.5 0 0 1 8.1445312 11.023438 A 0.5 0.5 0 0 1 8.4765625 11.355469 A 0.5 0.5 0 0 1 8.4863281 11.386719 A 0.5 0.5 0 0 1 8.4941406 11.425781 C 8.4949936 11.430881 8.4953937 11.436256 8.4960938 11.441406 A 0.5 0.5 0 0 1 8.5 11.5 A 0.5 0.5 0 0 1 8.4960938 11.558594 C 8.4954126 11.563694 8.4950406 11.569099 8.4941406 11.574219 A 0.5 0.5 0 0 1 8.4863281 11.613281 A 0.5 0.5 0 0 1 8.4765625 11.644531 A 0.5 0.5 0 0 1 8.1445312 11.976562 A 0.5 0.5 0 0 1 8.1132812 11.986328 A 0.5 0.5 0 0 1 8.0742188 11.994141 C 8.0709886 11.99468 8.0677031 11.995594 8.0644531 11.996094 A 0.5 0.5 0 0 1 8 12 L 8 11 z M 5 14 L 5 15 L 10 15 L 10 14 L 5 14 z " />
+  </g>
+</svg>

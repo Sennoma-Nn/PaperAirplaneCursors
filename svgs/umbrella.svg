@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="umbrella.svg"
+   inkscape:export-filename="../umbrella.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#666666"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#404040"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="62.555439"
+     inkscape:cx="4.09237"
+     inkscape:cy="6.2024982"
+     inkscape:window-width="1880"
+     inkscape:window-height="1044"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     labelstyle="default"
+     borderlayer="true"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="text1"
+       style="font-size:72px;font-family:'0xProto Nerd Font Mono';-inkscape-font-specification:'0xProto Nerd Font Mono';stroke:#ffffff;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 1 1 L 1 1.5 C 1.0000705 1.5788734 1.0205389 1.6595396 1.0625 1.7402344 C 1.5773293 2.7470116 2.3471555 4.2538845 3.3710938 6.2617188 L 4.7265625 8.9726562 L 5.4394531 7.5566406 L 6.5117188 7.1875 L 7.4042969 8.0800781 C 7.4615002 8.1372815 7.4861894 8.1968422 7.4804688 8.2597656 C 7.4804689 8.3284096 7.4557797 8.3899233 7.4042969 8.4414062 C 7.3470935 8.4986096 7.2834876 8.5273438 7.2148438 8.5273438 C 7.1461998 8.5273436 7.0866392 8.500702 7.0351562 8.4492188 L 6.8632812 8.2773438 L 6.1601562 8.9804688 L 6.3320312 9.1523438 C 6.5894459 9.4097584 6.8912945 9.5369705 7.2402344 9.53125 C 7.5834538 9.53125 7.8790259 9.4080832 8.125 9.1621094 C 8.3652536 8.9218557 8.4843749 8.6241916 8.484375 8.2695312 C 8.484375 7.9263117 8.3591163 7.6286474 8.1074219 7.3769531 L 7.2148438 6.484375 L 7.5839844 5.4121094 L 9 4.6992188 L 1.7324219 1.0703125 C 1.6516015 1.0267937 1.5740637 1.0029785 1.5 1 L 1 1 z M 4.0058594 3.2753906 L 6.90625 4.734375 L 6.5898438 4.9140625 L 6.4609375 5.7285156 L 4.0058594 3.2753906 z M 3.3027344 3.9785156 L 5.7558594 6.4335938 L 4.9414062 6.5625 L 4.7617188 6.8789062 L 3.3027344 3.9785156 z " />
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="diamond_cross.svg"
+   inkscape:export-filename="../diamond_cross.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#666666"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#404040"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="50.88369"
+     inkscape:cx="7.2518326"
+     inkscape:cy="6.7408633"
+     inkscape:window-width="1880"
+     inkscape:window-height="1044"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     labelstyle="default"
+     borderlayer="true"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="8"
+       originy="8"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect2"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 7.5,4 V 7.5 H 4 v 1 H 7.5 V 12 h 1 V 8.5 H 12 v -1 H 8.5 V 4 Z" />
+    <path
+       id="path4"
+       style="baseline-shift:baseline;display:inline;overflow:visible;fill:#000000;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stroke:#ffffff;stroke-opacity:1;fill-opacity:1;stroke-width:2;stroke-dasharray:none"
+       d="M 7.9998095,3 A 1.000095,1.000095 0 0 0 7.2927783,3.2929687 L 6.3533251,4.2324219 7.0603564,4.9394531 7.9998095,4 8.9236376,4.9238281 9.6306689,4.2167969 8.7068407,3.2929687 A 1.000095,1.000095 0 0 0 7.9998095,3 Z M 11.751762,6.3378906 11.044731,7.0449219 11.999809,8 11.060356,8.9394531 11.767387,9.6464844 12.70684,8.7070312 a 1.000095,1.000095 0 0 0 0,-1.4140624 z M 4.2322314,6.3535156 3.2927783,7.2929688 a 1.000095,1.000095 0 0 0 0,1.4140624 L 4.2166064,9.6308594 4.9236376,8.9238281 3.9998095,8 4.9392626,7.0605469 Z m 2.8125,4.6914054 -0.7070313,0.707032 0.9550782,0.955078 a 1.000095,1.000095 0 0 0 1.4140624,0 L 9.6462939,11.767578 8.9392626,11.060546 7.9998095,12 Z" />
+  </g>
+</svg>

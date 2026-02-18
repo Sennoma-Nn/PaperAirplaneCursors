@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="heart.svg"
+   inkscape:export-filename="../heart.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#666666"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#404040"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="62.93876"
+     inkscape:cx="5.0445862"
+     inkscape:cy="6.037615"
+     inkscape:window-width="1880"
+     inkscape:window-height="1044"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     labelstyle="default"
+     borderlayer="true"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-size:72px;font-family:'0xProto Nerd Font Mono';-inkscape-font-specification:'0xProto Nerd Font Mono';baseline-shift:baseline;display:inline;overflow:visible;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000"
+       d="m 0.99999997,0.9999996 c 0,0 2.52899183,0.0101485 3.72958723,0.003102 0.8532273,0.020153 1.5418557,0.097418 2.0658852,0.231794 0.604649,0.1478107 1.0984458,0.4131983 1.4813905,0.796163 0.3090427,0.3090585 0.52067,0.6685074 0.634882,1.0783467 0.1142113,0.423276 0.1175713,0.843193 0.01008,1.259751 -0.114212,0.423276 -0.3258393,0.7894437 -0.634882,1.098503 C 8.0114916,5.7431241 7.6923712,5.9413248 7.3295817,6.0622607 6.9667922,6.1966342 6.6006434,6.2537429 6.2311354,6.2335869 6.2512907,6.6031138 6.194185,6.9692814 6.0598182,7.3320897 5.93217,7.7016167 5.7339794,8.0207536 5.4652464,8.2895004 5.1562033,8.5985593 4.7934137,8.8068382 4.3768775,8.914337 3.953623,9.0285545 3.5370868,9.0285545 3.1272689,8.914337 2.710731,8.8068355 2.3445813,8.595196 2.02882,8.2794185 1.6458755,7.8964542 1.3805016,7.4026319 1.2326985,6.7979514 1.098332,6.2738949 1.0210712,5.5852311 1.0009162,4.7319598 1.0009041,3.5315834 0.99999997,0.9999996 0.99999997,0.9999996 Z"
+       id="path3"
+       sodipodi:nodetypes="cccsccscccsccsccc" />
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="pencil.svg"
+   inkscape:export-filename="../pencil.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#666666"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#404040"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="48.586524"
+     inkscape:cx="7.3168437"
+     inkscape:cy="8.047499"
+     inkscape:window-width="1880"
+     inkscape:window-height="1044"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     labelstyle="default"
+     borderlayer="true"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 7.0257657,8.9999579 q -0.2580644,0 -0.4516129,-0.1935482 L 5.6838302,7.9160877 7.9160886,5.6967324 8.8064116,6.5741517 q 0.1935475,0.180645 0.1935475,0.4387096 0,0.270968 -0.1935475,0.4387102 L 7.4773785,8.8064097 Q 7.28383,8.9999579 7.0257657,8.9999579 Z M 5.387056,7.6193127 1.980604,4.2128614 3.0644752,4.0838291 3.1418949,3.12899 4.0838304,3.0644745 4.2257659,1.9806028 7.619315,5.387055 Z M 1.7483459,3.8128614 0.99995881,0.99995821 3.8128622,1.7612487 3.7096364,2.6773776 2.7418945,2.7289901 2.6773783,3.7096355 Z"
+       id="text1"
+       style="font-size:12.8721px;font-family:'0xProto Nerd Font Mono';-inkscape-font-specification:'0xProto Nerd Font Mono';stroke:#ffffff;stroke-width:2;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       aria-label="󰙏" />
+  </g>
+</svg>
