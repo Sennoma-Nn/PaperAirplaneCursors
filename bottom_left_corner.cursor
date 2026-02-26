@@ -1,1 +1,4 @@
-32 16 16 bottom_left_corner.png
+32 16 16 bottom_left_corner_32.png
+48 24 24 bottom_left_corner_48.png
+64 32 32 bottom_left_corner_64.png
+96 48 48 bottom_left_corner_96.png

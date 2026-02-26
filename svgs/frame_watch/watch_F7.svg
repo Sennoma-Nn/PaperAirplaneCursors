@@ -31,7 +31,7 @@
      showgrid="true"
      inkscape:zoom="41.872779"
      inkscape:cx="5.1465416"
-     inkscape:cy="8.0243062"
+     inkscape:cy="6.3167529"
      inkscape:window-width="1880"
      inkscape:window-height="1044"
      inkscape:window-x="40"
@@ -67,28 +67,28 @@
     <circle
        style="fill:#000000;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="circle20"
-       cx="2"
-       cy="3"
+       cx="4"
+       cy="14"
        r="1"
        inkscape:label="dot1" />
     <circle
        style="fill:#000000;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="circle21"
-       cx="7"
-       cy="3"
+       cx="9"
+       cy="14"
        r="1"
        inkscape:label="dot2" />
     <circle
        style="fill:#000000;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="circle22"
-       cx="12"
-       cy="2"
+       cx="14"
+       cy="13"
        r="1"
        inkscape:label="dot3" />
     <path
        id="path22"
        style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 9.344,7.0008586 6.93e-4,7.9991914 2.120318,-0.87822 2.78e-4,-1.999985 1.414471,1.414006 2.120317,-0.87822 z"
+       d="M 1,0.99985861 1.000693,8.99905 3.121011,8.12083 3.121289,6.120845 4.53576,7.534851 6.656077,6.656631 Z"
        inkscape:label="rect1" />
     <rect
        style="display:inline;fill:#000000;fill-opacity:0;stroke-width:2;stroke-linejoin:round;paint-order:stroke fill markers"

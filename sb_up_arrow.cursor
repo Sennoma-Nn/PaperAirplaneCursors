@@ -1,1 +1,4 @@
-32 16 16 sb_up_arrow.png
+32 16 16 sb_up_arrow_32.png
+48 24 24 sb_up_arrow_48.png
+64 32 32 sb_up_arrow_64.png
+96 48 48 sb_up_arrow_96.png

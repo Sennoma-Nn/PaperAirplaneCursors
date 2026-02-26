@@ -2,21 +2,25 @@
 
 cd ..
 
-for file in ./svgs/*; do
-    file_name=$(basename "$file" .svg)
-    case "$file_name" in
-        frame_*)
-            for frame_file in "$file"/*; do
-                frame_file_name=$(basename "$frame_file" .svg)
-                printf "\033[34m\ninkscape output frame file: %s\n%s -> %s\n\033[0m" "$frame_file_name" "$frame_file" "./${frame_file_name}.png"
-                inkscape "$frame_file" -w 32 -h 32 -o "./${frame_file_name}.png"
-            done
-            ;;
-        *)
-            printf "\033[34m\ninkscape output file: %s\n%s -> %s\n\033[0m" "$file_name" "$file" "./${file_name}.png"
-            inkscape "$file" -w 32 -h 32 -o "./${file_name}.png"
-            ;;
-    esac
+[ -d cursors ] || mkdir cursors
+
+for size in 32 48 64 96; do
+    for file in ./svgs/*; do
+        file_name=$(basename "$file" .svg)
+        case "$file_name" in
+            frame_*)
+                for frame_file in "$file"/*; do
+                    frame_file_name=$(basename "$frame_file" .svg)
+                    printf "\033[34m\ninkscape output frame file: %s\n%s -> %s (size: %dpx)\n\033[0m" "$frame_file_name" "$frame_file" "./${frame_file_name}.png" $size
+                    inkscape "$frame_file" -w $size -h $size -o "./${frame_file_name}_$size.png"
+                done
+                ;;
+            *)
+                printf "\033[34m\ninkscape output file: %s\n%s -> %s (size: %dpx)\n\033[0m" "$file_name" "$file" "./${file_name}.png" $size
+                inkscape "$file" -w $size -h $size -o "./${file_name}_$size.png"
+                ;;
+        esac
+    done
 done
 
 for cursor_file in ./*.cursor; do

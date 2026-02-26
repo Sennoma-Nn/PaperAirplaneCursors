@@ -1,1 +1,4 @@
-32 16 16 dotbox.png
+32 16 16 dotbox_32.png
+48 24 24 dotbox_48.png
+64 32 32 dotbox_64.png
+96 48 48 dotbox_96.png

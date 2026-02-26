@@ -1,1 +1,4 @@
-32 16 16 xterm.png
+32 16 16 xterm_32.png
+48 24 24 xterm_48.png
+64 32 32 xterm_64.png
+96 48 48 xterm_96.png

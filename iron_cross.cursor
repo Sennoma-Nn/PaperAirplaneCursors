@@ -1,1 +1,4 @@
-32 16 16 iron_cross.png
+32 16 16 iron_cross_32.png
+48 24 24 iron_cross_48.png
+64 32 32 iron_cross_64.png
+96 48 48 iron_cross_96.png

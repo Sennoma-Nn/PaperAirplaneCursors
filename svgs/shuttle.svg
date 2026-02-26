@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="41.558027"
-     inkscape:cx="4.4516069"
-     inkscape:cy="7.7241396"
+     inkscape:cx="5.5945871"
+     inkscape:cy="6.7977241"
      inkscape:window-width="1880"
      inkscape:window-height="1044"
      inkscape:window-x="40"
@@ -64,6 +64,6 @@
     <path
        id="rect1"
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 4.0605469 1 L 1 8.390625 L 3.2949219 8.390625 L 4.0605469 6.5429688 L 4.8261719 8.390625 L 7.1210938 8.390625 L 4.0605469 1 z M 4.0605469 8 L 3.296875 9.8476562 L 4.0605469 11.695312 L 4.8261719 9.8476562 L 4.0605469 8 z " />
+       d="M 4.7494973,1 1.6889504,8.390625 h 2.2949219 l 0.765625,-1.8476562 0.765625,1.8476562 h 2.2949219 z m 0,7 -0.7636719,1.8476562 0.7636719,1.8476558 0.765625,-1.8476558 z" />
   </g>
 </svg>
