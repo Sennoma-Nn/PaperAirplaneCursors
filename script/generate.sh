@@ -1,36 +1,52 @@
 #!/bin/sh
 
-cd ..
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+printf "\033[34mScript Dir: %s\n\033[0m" "$SCRIPT_DIR"
+if ! cd "$SCRIPT_DIR/../"; then
+    printf "\033[31m%s/../ cannot be entered.\n\033[0m" "$SCRIPT_DIR" >&2
+    exit 1
+fi
 
-[ -d cursors ] || mkdir cursors
+[ -d ./build ]          || mkdir ./build
+[ -d ./pngs ]           || mkdir ./pngs
+[ -d ./build/cursors ]  || mkdir ./build/cursors
 
+PNG_FILLS_SUM=0
 for size in 32 48 64 96; do
     for file in ./svgs/*; do
         file_name=$(basename "$file" .svg)
         case "$file_name" in
             frame_*)
                 for frame_file in "$file"/*; do
+                    PNG_FILLS_SUM=$((PNG_FILLS_SUM + 1))
                     frame_file_name=$(basename "$frame_file" .svg)
-                    printf "\033[34m\ninkscape output frame file: %s\n%s -> %s (size: %dpx)\n\033[0m" "$frame_file_name" "$frame_file" "./${frame_file_name}.png" $size
-                    inkscape "$frame_file" -w $size -h $size -o "./${frame_file_name}_$size.png"
+                    printf "\033[34m#%s\ninkscape output frame file: %s\n%s -> %s (size: %dpx)\n\033[0m" $PNG_FILLS_SUM "$frame_file_name" "$frame_file" "./pngs/${frame_file_name}.png" $size
+                    inkscape "$frame_file" -w $size -h $size -o "./pngs/${frame_file_name}_$size.png" 2>/dev/null
                 done
                 ;;
             *)
-                printf "\033[34m\ninkscape output file: %s\n%s -> %s (size: %dpx)\n\033[0m" "$file_name" "$file" "./${file_name}.png" $size
-                inkscape "$file" -w $size -h $size -o "./${file_name}_$size.png"
+                PNG_FILLS_SUM=$((PNG_FILLS_SUM + 1))
+                printf "\033[34m#%s\ninkscape output file: %s\n%s -> %s (size: %dpx)\n\033[0m" $PNG_FILLS_SUM "$file_name" "$file" "./pngs/${file_name}.png" $size
+                inkscape "$file" -w $size -h $size -o "./pngs/${file_name}_$size.png" 2>/dev/null
                 ;;
         esac
     done
 done
 
-for cursor_file in ./*.cursor; do
+for cursor_file in ./xcursorgen/*.cursor; do
     cursor_file_name=$(basename "$cursor_file" .cursor)
-    printf "\033[34m\nxcursorgen file: %s\n%s -> %s\n\033[0m" $cursor_file_name "./${cursor_file_name}.cursor" "./cursors/${cursor_file_name}"
-    xcursorgen "./${cursor_file_name}.cursor" "./cursors/${cursor_file_name}"
+    printf "\033[34m\nxcursorgen file: %s\n%s -> %s\n\033[0m" $cursor_file_name "./xcursorgen/${cursor_file_name}.cursor" "./build/cursors/${cursor_file_name}"
+    xcursorgen "./xcursorgen/${cursor_file_name}.cursor" "./build/cursors/${cursor_file_name}"
 done
 
-printf "\033[34m\nenter dir: cursors/\n\033[0m"
-cd cursors/
+cp ./index.theme ./build/
+cp ./LICENSE     ./build/
+
+printf "\033[34m\nenter dir: ./build/cursors/\n\033[0m"
+if ! cd "$SCRIPT_DIR/../build/cursors/"; then
+    printf "\033[31m%s/../build/cursors/ cannot be entered.\n\033[0m" "$SCRIPT_DIR" >&2
+    exit 1
+fi
 
 link_file() {
     target="$1"
@@ -39,66 +55,66 @@ link_file() {
     ln -s "$linkname" "$target"
 }
 
-link_file "00000000000000020006000e7e9ffc3f" "progress"
-link_file "00008160000006810000408080010102" "ns-resize"
-link_file "028006030e0e7ebffc7f7070c0600140" "ew-resize"
-link_file "03b6e0fcb3499374a867c041f52298f0" "not-allowed"
-link_file "0426c94ea35c87780ff01dc239897213" "wait"
-link_file "043a9f68147c53184671403ffa811cc5" "col-resize"
-link_file "048008013003cff3c00c801001200000" "vertical-text"
-link_file "08e8e1c95fe2fc01f976f1e063a24ccd" "progress"
-link_file "08ffe1cb5fe6fc01f906f1c063814ccf" "copy"
-link_file "08ffe1e65f80fcfdf9fff11263e74c48" "context-menu"
-link_file "1081e37283d90000800003c07f3ef6bf" "copy"
-link_file "14fef782d02440884392942c11205230" "col-resize"
-link_file "2870a09082c103050810ffdffffe0204" "row-resize"
-link_file "38c5dff7c7b8962045400281044508d2" "nwse-resize"
-link_file "3ecb610c1bf2410f44200f48c40d3599" "progress"
-link_file "50585d75b494802d0151028115016902" "nesw-resize"
-link_file "5c6cd98b3f3ebcb1f9c7f1c204630408" "help"
-link_file "6407b0e94181790501fd1e167b474872" "copy"
-link_file "9116a3ea924ed2162ecab71ba103b17f" "progress"
-link_file "all-scroll" "fleur"
-link_file "arrow" "left_ptr"
-link_file "b66166c04f8c3109214a4fbd64a50fc8" "copy"
-link_file "based_arrow_down" "sb_v_double_arrow"
-link_file "based_arrow_up" "sb_v_double_arrow"
-link_file "bottom_side" "sb_v_double_arrow"
-link_file "cell" "plus"
-link_file "clock" "watch"
-link_file "col-resize" "sb_h_double_arrow"
-link_file "d9ce0ab605698f320427677b458ad60b" "help"
-link_file "default" "left_ptr"
-link_file "double_arrow" "sb_v_double_arrow"
-link_file "draft_large" "right_ptr"
-link_file "draft_small" "right_ptr"
-link_file "draped_box" "dotbox"
-link_file "e-resize" "right_side"
-link_file "ew-resize" "sb_h_double_arrow"
-link_file "hand1" "hand"
-link_file "hand2" "hand"
-link_file "help" "question_arrow"
-link_file "icon" "dotbox"
-link_file "left_side" "sb_h_double_arrow"
-link_file "n-resize" "top_side"
-link_file "ne-resize" "top_right_corner"
-link_file "nesw-resize" "bottom_left_corner"
-link_file "ns-resize" "sb_v_double_arrow"
-link_file "nw-resize" "top_left_corner"
-link_file "nwse-resize" "bottom_right_corner"
-link_file "pointer" "hand"
-link_file "progress" "left_ptr_watch"
-link_file "right_side" "sb_h_double_arrow"
-link_file "row-resize" "sb_v_double_arrow"
-link_file "s-resize" "bottom_side"
-link_file "se-resize" "bottom_right_corner"
-link_file "sizing" "bottom_right_corner"
-link_file "sw-resize" "bottom_left_corner"
-link_file "target" "dotbox"
-link_file "tcross" "cross"
-link_file "text" "xterm"
-link_file "top_left_arrow" "left_ptr"
-link_file "top_side" "sb_v_double_arrow"
-link_file "up-arrow" "center_ptr"
-link_file "w-resize" "left_side"
-link_file "wait" "watch"
+link_file "00000000000000020006000e7e9ffc3f"    "progress"
+link_file "00008160000006810000408080010102"    "ns-resize"
+link_file "028006030e0e7ebffc7f7070c0600140"    "ew-resize"
+link_file "03b6e0fcb3499374a867c041f52298f0"    "not-allowed"
+link_file "0426c94ea35c87780ff01dc239897213"    "wait"
+link_file "043a9f68147c53184671403ffa811cc5"    "col-resize"
+link_file "048008013003cff3c00c801001200000"    "vertical-text"
+link_file "08e8e1c95fe2fc01f976f1e063a24ccd"    "progress"
+link_file "08ffe1cb5fe6fc01f906f1c063814ccf"    "copy"
+link_file "08ffe1e65f80fcfdf9fff11263e74c48"    "context-menu"
+link_file "1081e37283d90000800003c07f3ef6bf"    "copy"
+link_file "14fef782d02440884392942c11205230"    "col-resize"
+link_file "2870a09082c103050810ffdffffe0204"    "row-resize"
+link_file "38c5dff7c7b8962045400281044508d2"    "nwse-resize"
+link_file "3ecb610c1bf2410f44200f48c40d3599"    "progress"
+link_file "50585d75b494802d0151028115016902"    "nesw-resize"
+link_file "5c6cd98b3f3ebcb1f9c7f1c204630408"    "help"
+link_file "6407b0e94181790501fd1e167b474872"    "copy"
+link_file "9116a3ea924ed2162ecab71ba103b17f"    "progress"
+link_file "all-scroll"                          "fleur"
+link_file "arrow"                               "left_ptr"
+link_file "b66166c04f8c3109214a4fbd64a50fc8"    "copy"
+link_file "based_arrow_down"                    "sb_v_double_arrow"
+link_file "based_arrow_up"                      "sb_v_double_arrow"
+link_file "bottom_side"                         "sb_v_double_arrow"
+link_file "cell"                                "plus"
+link_file "clock"                               "watch"
+link_file "col-resize"                          "sb_h_double_arrow"
+link_file "d9ce0ab605698f320427677b458ad60b"    "help"
+link_file "default"                             "left_ptr"
+link_file "double_arrow"                        "sb_v_double_arrow"
+link_file "draft_large"                         "right_ptr"
+link_file "draft_small"                         "right_ptr"
+link_file "draped_box"                          "dotbox"
+link_file "e-resize"                            "right_side"
+link_file "ew-resize"                           "sb_h_double_arrow"
+link_file "hand1"                               "hand"
+link_file "hand2"                               "hand"
+link_file "help"                                "question_arrow"
+link_file "icon"                                "dotbox"
+link_file "left_side"                           "sb_h_double_arrow"
+link_file "n-resize"                            "top_side"
+link_file "ne-resize"                           "top_right_corner"
+link_file "nesw-resize"                         "bottom_left_corner"
+link_file "ns-resize"                           "sb_v_double_arrow"
+link_file "nw-resize"                           "top_left_corner"
+link_file "nwse-resize"                         "bottom_right_corner"
+link_file "pointer"                             "hand"
+link_file "progress"                            "left_ptr_watch"
+link_file "right_side"                          "sb_h_double_arrow"
+link_file "row-resize"                          "sb_v_double_arrow"
+link_file "s-resize"                            "bottom_side"
+link_file "se-resize"                           "bottom_right_corner"
+link_file "sizing"                              "bottom_right_corner"
+link_file "sw-resize"                           "bottom_left_corner"
+link_file "target"                              "dotbox"
+link_file "tcross"                              "cross"
+link_file "text"                                "xterm"
+link_file "top_left_arrow"                      "left_ptr"
+link_file "top_side"                            "sb_v_double_arrow"
+link_file "up-arrow"                            "center_ptr"
+link_file "w-resize"                            "left_side"
+link_file "wait"                                "watch"
